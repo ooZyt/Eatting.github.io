@@ -1,0 +1,6 @@
+1.创建一个conda环境：conda create --name one（这个是名字，自定义） python=3.7.2
+2.用activate （名字）切换到这个新环境中，用conda list可以查看我们这个环境中默认配置的包，也可以用deactivate退出这个环境
+3.搜索anaconda prompt 可以进入命令行窗口
+4.在这里输入conda install （库名） 安装库
+5.使用conda list可以检查是否安装成功
+6.conda info --envs 指令可以检查当下创建的conda环境
